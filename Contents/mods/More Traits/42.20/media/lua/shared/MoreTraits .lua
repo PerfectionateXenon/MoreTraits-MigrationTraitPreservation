@@ -4191,7 +4191,7 @@ local function GymGoerUpdate(player, playerdata)
                 sendClientCommand(
                         player,
                         "ToadTraits",
-                        "ProcessBodyPartMechanics",
+                        "BodyPartMechanics",
                         { bodyParts = bodyParts, partStiffness = 0, clearStrain = true }
                 )
             else
