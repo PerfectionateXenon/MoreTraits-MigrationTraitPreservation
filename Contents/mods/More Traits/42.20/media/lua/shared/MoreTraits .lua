@@ -4140,6 +4140,9 @@ local function GymGoerUpdate(player, playerdata)
     end
 
     local fitness = player:getFitness()
+    if not fitness then
+        return
+    end
     if not playerdata.GymGoerStiffnessList then
         playerdata.GymGoerStiffnessList = {
             fitness:getCurrentExeStiffnessInc("arms"),
@@ -4183,12 +4186,12 @@ local function GymGoerUpdate(player, playerdata)
             if isClient() then
                 local bodyParts = {}
                 for _, partType in ipairs(group.parts) do
-                    table.insert(bodyParts, partType:getIndex())
+                    table.insert(bodyParts, BodyPartType.ToIndex(partType))
                 end
                 sendClientCommand(
                         player,
                         "ToadTraits",
-                        "ProcessBodyPartMechanics",
+                        "BodyPartMechanics",
                         { bodyParts = bodyParts, partStiffness = 0, clearStrain = true }
                 )
             else
