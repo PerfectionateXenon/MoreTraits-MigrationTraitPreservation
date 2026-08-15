@@ -285,7 +285,7 @@ module MoreTraits
 		ItemType = base:literature,
 		Icon = MagazineBlacksmith1,
 		LearnedRecipes = Improvise Bandage; Improvise Splint,
-		OnCreate = SpecialLootSpawns.OnCreateRecipeMagazine,
+		OnCreate = ItemCodeOnCreate.OnCreateRecipeMagazine,
 		StaticModel = Magazine,
 	}
 	item MedicalMag2
@@ -295,7 +295,7 @@ module MoreTraits
 		ItemType = base:literature,
 		Icon = MagazineBlacksmith2,
 		LearnedRecipes = Improvise Suture; Improvise Suture Holder; Improvise Disinfectant,
-		OnCreate = SpecialLootSpawns.OnCreateRecipeMagazine,
+		OnCreate = ItemCodeOnCreate.OnCreateRecipeMagazine,
 		StaticModel = Magazine,
 	}
 	item MedicalMag3
@@ -305,7 +305,7 @@ module MoreTraits
 		ItemType = base:literature,
 		Icon = MagazineBlacksmith3,
 		LearnedRecipes = Improvise Painkillers; Improvise Antidepressants; Improvise Betablockers; Improvise Sleeping Pills,
-		OnCreate = SpecialLootSpawns.OnCreateRecipeMagazine,
+		OnCreate = ItemCodeOnCreate.OnCreateRecipeMagazine,
 		StaticModel = Magazine,
 	}
 	item MedicalMag4
@@ -315,7 +315,7 @@ module MoreTraits
 		ItemType = base:literature,
 		Icon = MagazineBlacksmith4,
 		LearnedRecipes = Improvise Antibiotics,
-		OnCreate = SpecialLootSpawns.OnCreateRecipeMagazine,
+		OnCreate = ItemCodeOnCreate.OnCreateRecipeMagazine,
 		StaticModel = Magazine,
 	}
 	item AntiqueMag1
@@ -325,7 +325,7 @@ module MoreTraits
 		ItemType = base:literature,
 		Icon = MagazineBlacksmith1,
 		LearnedRecipes = Mince Corpse into Fertilizer,
-		OnCreate = SpecialLootSpawns.OnCreateRecipeMagazine,
+		OnCreate = ItemCodeOnCreate.OnCreateRecipeMagazine,
 		Tooltip = Tooltip_MoreTraits_AntiqueMag1,
 		StaticModel = Magazine,
 	}
@@ -336,7 +336,7 @@ module MoreTraits
 		ItemType = base:literature,
 		Icon = MagazineBlacksmith2,
 		LearnedRecipes = Make Papier Mache; Make Papier Mache Sword; Make Wood Glue; Make Duct Tape,
-		OnCreate = SpecialLootSpawns.OnCreateRecipeMagazine,
+		OnCreate = ItemCodeOnCreate.OnCreateRecipeMagazine,
 		Tooltip = Tooltip_MoreTraits_AntiqueMag2,
 		StaticModel = Magazine,
 	}
@@ -347,7 +347,7 @@ module MoreTraits
 		ItemType = base:literature,
 		Icon = MagazineBlacksmith3,
 		LearnedRecipes = Extract Propane From Corpse,
-		OnCreate = SpecialLootSpawns.OnCreateRecipeMagazine,
+		OnCreate = ItemCodeOnCreate.OnCreateRecipeMagazine,
 		Tooltip = Tooltip_MoreTraits_AntiqueMag3,
 		StaticModel = Magazine,
 	}
