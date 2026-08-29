@@ -1,5 +1,5 @@
 version=1
-id=1299328280
+id=
 title=More Traits
 description=[h1]IMPORTANT: Build 42.13 [/h1]
 description=Thanks for the efforts of the community - and most especially FallenxSowerby - the state of Multiplayer Support should be much improved from the previous build.
@@ -100,4 +100,4 @@ description=Mod ID: 1299328280/ToadTraitsDynamic
 description=Mod ID: 1299328280/ToadTraitsDynamic
 description=Mod ID: 1299328280/ToadTraitsDynamic
 tags=Build 41;Build 42;Multiplayer;Silly/Fun;Traits
-visibility=public
+visibility=1
